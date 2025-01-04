@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KokuApp</string>
+    <string name="nama_aplikasi">KOKU</string>
+    <string name="deskripsi">Ayo kita mengenal nama-nama hewan berdasarkan jenis makanannya</string>
+    <string name="karnivora">Karnivora</string>
+    <string name="Herbivora">herbivora</string>
+    <string name="Omnivora">Omnivora</string>
+    <string name="deskripsi_karnivora">Hewan karnivora adalah hewan pemakan daging. Mereka mendapatkan energi dengan memangsa hewan lain. Contohnya adalah singa, harimau, elang, dan cheetah.</string>
+    <string name="text_depan">Mengenal jenis-jenis hewan berdasarkan makanannya</string>
+</resources>
