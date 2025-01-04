@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#258129"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_aplikasi"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="105dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128"
+        app:srcCompat="@drawable/koala" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="297dp"
+        android:layout_height="41dp"
+        android:text="@string/deskripsi"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.372" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="315dp"
+        android:layout_height="86dp"
+        android:background="@drawable/round_bg"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="106dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/cheetah" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingTop="25dp"
+            android:paddingEnd="10dp"
+            android:text="@string/karnivora"
+            android:layout_marginEnd="2dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:text=">>" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="315dp"
+        android:layout_height="86dp"
+        android:background="@drawable/round_bg"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" >
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="85dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/ayam" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="147dp"
+            android:layout_height="72dp"
+            android:paddingStart="15dp"
+            android:paddingTop="25dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:text="@string/Omnivora"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:text=">>" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="315dp"
+        android:layout_height="86dp"
+        android:background="@drawable/round_bg"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" >
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="92dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sapi" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingTop="26dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:paddingBottom="20dp"
+            android:text="@string/Herbivora"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="89dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:text=">>" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
